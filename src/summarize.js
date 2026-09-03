@@ -1,8 +1,8 @@
-import Anthropic from "@anthropic-ai/sdk";
+import OpenAI from "openai";
 import { z } from "zod";
-import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
+import { zodTextFormat } from "openai/helpers/zod";
 
-const MODEL = "claude-opus-5";
+const MODEL = "gpt-5.6-luna";
 
 const BlurbsSchema = z.object({
   intro: z.string(),
@@ -19,18 +19,20 @@ why a developer would care. No hype, no filler. Write an intro of one or two
 sentences summarizing the week. If there are no items, say so plainly.
 Return one blurb for every input item, keyed by its id or version.`;
 
-export async function summarize(raw, client = new Anthropic()) {
-  const response = await client.messages.parse({
+export async function summarize(raw, client = new OpenAI()) {
+  const response = await client.responses.parse({
     model: MODEL,
-    max_tokens: 16000,
-    system: SYSTEM,
-    messages: [{
-      role: "user",
-      content: JSON.stringify({ web: raw.web, node: raw.node }),
-    }],
-    output_config: { format: zodOutputFormat(BlurbsSchema) },
+    max_output_tokens: 16000,
+    input: [
+      { role: "system", content: SYSTEM },
+      {
+        role: "user",
+        content: JSON.stringify({ web: raw.web, node: raw.node }),
+      },
+    ],
+    text: { format: zodTextFormat(BlurbsSchema, "blurbs") },
   });
-  const parsed = response.parsed_output;
+  const parsed = response.output_parsed;
   if (!parsed) throw new Error("model returned unparseable output");
 
   const webBlurbs = new Map(parsed.web.map((b) => [b.id, b.blurb]));
