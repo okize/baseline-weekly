@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-30",
+  "curated": false,
+  "intro": "This week's items, without commentary. (Automatic summarization failed.)",
+  "web": [],
+  "node": [
+    {
+      "version": "26.8.1",
+      "date": "2026-08-26",
+      "line": "Current",
+      "security": false,
+      "notableChanges": "Out-of-band release to fix `node --version` which was reporting an alpha version.",
+      "link": "https://github.com/nodejs/node/releases/tag/v26.8.1",
+      "blurb": ""
+    },
+    {
+      "version": "26.8.0",
+      "date": "2026-08-25",
+      "line": "Current",
+      "security": false,
+      "notableChanges": "* \\[[`74234ee30e`](https://github.com/nodejs/node/commit/74234ee30e)] - **(SEMVER-MINOR)** **benchmark**: add --analyze mode to compare.js (James M Snell) [#65416](https://github.com/nodejs/node/pull/65416)\n* \\[[`4232997fa2`](https://github.com/nodejs/node/commit/4232997fa2)] - **crypto**: update root certificates to NSS 3.126 (Node.js GitHub Bot) [#65495](https://github.com/nodejs/node/pull/65495)\n* \\[[`f0531f1c87`](https://github.com/nodejs/node/commit/f0531f1c87)] - **(SEMVER-MINOR)** **crypto**: enable SIV and GCM-SIV modes in Cipher/Decipher APIs (Filip Skokan) [#63411](https://github.com/nodejs/node/pull/63411)\n* \\[[`3f4b80ebb5`](https://github.com/nodejs/node/commit/3f4b80ebb5)] - **diagnostics\\_channel**: mark TracingChannel as stable (Abdelrahman Awad) [#64525](https://github.com/nodejs/node/pull/64525)\n* \\[[`753033c110`](https://github.com/nodejs/node/commit/753033c110)] - **(SEMVER-MINOR)** **lib,src**: improve histogram implementation (James M Snell) [#65024](https://github.com/nodejs/node/pull/65024)\n* \\[[`3d7d277493`](https://github.com/nodejs/node/commit/3d7d277493)] - **(SEMVER-MINOR)** **net**: improve performance of net.BlockList (James M Snell) [#64974](https://github.com/nodejs/node/pull/64974)\n* \\[[`9e8e9080fd`](https://github.com/nodejs/node/commit/9e8e9080fd)] - **(SEMVER-MINOR)** **perf\\_hooks**: add statistical hypothesis testing to histogram (James M Snell) [#65416](https://github.com/nodejs/node/pull/65416)\n* \\[[`c18b0aa54e`](https://github.com/nodejs/node/commit/c18b0aa54e)] - **repl**: add basic syntax highlighting (Aviv Keller) [#64591](https://github.com/nodejs/node/pull/64591)\n* \\[[`58ea88e1d3`](https://github.com/nodejs/node/commit/58ea88e1d3)] - **(SEMVER-MINOR)** **sqlite**: add StatementSync.prototype.close() (Guilherme Araújo) [#64232](https://github.com/nodejs/node/pull/64232)\n* \\[[`7c61b08aed`](https://github.com/nodejs/node/commit/7c61b08aed)] - **(SEMVER-MINOR)** **sqlite**: add StatementSync.prototype\\[Symbol.dispose]\\() (Guilherme Araújo) [#64232](https://github.com/nodejs/node/pull/64232)\n* \\[[`4299cd5897`](https://github.com/nodejs/node/commit/4299cd5897)] - **(SEMVER-MINOR)** **util**: add non-throwing MIMEType.parse (James M Snell) [#64965](https://github.com/nodejs/node/pull/64965)\n* \\[[`df48191061`](https://github.com/nodejs/node/commit/df48191061)] - **(SEMVER-MINOR)** **zlib**: add ZipEntry, ZipFile, and ZipBuffer (Philipp Dunkel) [#64339](https://github.com/nodejs/node/pull/64339)",
+      "link": "https://github.com/nodejs/node/releases/tag/v26.8.0",
+      "blurb": ""
+    },
+    {
+      "version": "24.20.0",
+      "date": "2026-08-26",
+      "line": "LTS (Krypton)",
+      "security": false,
+      "notableChanges": "* \\[[`b12bcc9ae1`](https://github.com/nodejs/node/commit/b12bcc9ae1)] - **(SEMVER-MINOR)** **async\\_hooks**: add `using` scopes to `AsyncLocalStorage` (Stephen Belanger) [#61674](https://github.com/nodejs/node/pull/61674)\n* \\[[`e2eb88b36b`](https://github.com/nodejs/node/commit/e2eb88b36b)] - **(SEMVER-MINOR)** **buffer**: add `end` parameter (Robert Nagy) [#62390](https://github.com/nodejs/node/pull/62390)\n* \\[[`1fefdda18e`](https://github.com/nodejs/node/commit/1fefdda18e)] - **crypto**: update root certificates to NSS 3.125 (Node.js GitHub Bot) [#64746](https://github.com/nodejs/node/pull/64746)\n* \\[[`4a158cf1ab`](https://github.com/nodejs/node/commit/4a158cf1ab)] - **doc**: add MikeMcC399 as collaborator (Mike McCready) [#64656](https://github.com/nodejs/node/pull/64656)\n* \\[[`d4cafce076`](https://github.com/nodejs/node/commit/d4cafce076)] - **(SEMVER-MINOR)** **lib,permission**: add `permission.drop` (Rafael Gonzaga) [#62672](https://github.com/nodejs/node/pull/62672)\n* \\[[`b3cfb55267`](https://github.com/nodejs/node/commit/b3cfb55267)] - **(SEMVER-MINOR)** **loader**: implement package maps (Maël Nison) [#62239](https://github.com/nodejs/node/pull/62239)\n* \\[[`cd1eb3e60b`](https://github.com/nodejs/node/commit/cd1eb3e60b)] - **(SEMVER-MINOR)** **src,permission**: add `--permission-audit` (RafaelGSS) [#61869](https://github.com/nodejs/node/pull/61869)\n* \\[[`28dc85d8d2`](https://github.com/nodejs/node/commit/28dc85d8d2)] - **(SEMVER-MINOR)** **stream**: add `node:stream/iter` implementation (James M Snell) [#62066](https://github.com/nodejs/node/pull/62066)\n* \\[[`d31c168740`](https://github.com/nodejs/node/commit/d31c168740)] - **(SEMVER-MINOR)** **test\\_runner**: add `context.log()` and test:log event (Moshe Atlow) [#64389](https://github.com/nodejs/node/pull/64389)\n* \\[[`add1edbc42`](https://github.com/nodejs/node/commit/add1edbc42)] - **(SEMVER-MINOR)** **test\\_runner**: report `entryFile` in `TestStream` events (Moshe Atlow) [#64309](https://github.com/nodejs/node/pull/64309)\n* \\[[`d937c8c6cd`](https://github.com/nodejs/node/commit/d937c8c6cd)] - **(SEMVER-MINOR)** **wasm**: enable JSPI (Guy Bedford) [#59941](https://github.com/nodejs/node/pull/59941)",
+      "link": "https://github.com/nodejs/node/releases/tag/v24.20.0",
+      "blurb": ""
+    }
+  ]
+}
