@@ -10,8 +10,8 @@ const RAW = {
 
 function fakeClient(parsedOutput) {
   return {
-    messages: {
-      parse: async () => ({ parsed_output: parsedOutput }),
+    responses: {
+      parse: async () => ({ output_parsed: parsedOutput }),
     },
   };
 }
