@@ -1,0 +1,28 @@
+{
+  "name": "baseline-weekly",
+  "version": "1.0.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "build": "node src/render.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okize/baseline-weekly.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/okize/baseline-weekly/issues"
+  },
+  "homepage": "https://github.com/okize/baseline-weekly#readme",
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.123.0",
+    "zod": "^4.5.4"
+  }
+}
