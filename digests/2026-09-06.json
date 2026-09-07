@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-06",
+  "curated": false,
+  "intro": "This week's items, without commentary. (Automatic summarization failed.)",
+  "web": [
+    {
+      "id": "progress-function",
+      "name": "progress()",
+      "baselineDate": "2026-09-01",
+      "link": "https://webstatus.dev/features/progress-function",
+      "blurb": ""
+    }
+  ],
+  "node": []
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-06",
+  "window": {
+    "start": "2026-08-31",
+    "end": "2026-09-06"
+  },
+  "web": [
+    {
+      "id": "progress-function",
+      "name": "progress()",
+      "baselineDate": "2026-09-01",
+      "link": "https://webstatus.dev/features/progress-function"
+    }
+  ],
+  "node": []
+}
