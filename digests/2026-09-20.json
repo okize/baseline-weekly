@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-20",
+  "curated": false,
+  "intro": "This week's items, without commentary. (Automatic summarization failed.)",
+  "web": [
+    {
+      "id": "alpha",
+      "name": "alpha()",
+      "baselineDate": "2026-09-14",
+      "link": "https://webstatus.dev/features/alpha",
+      "blurb": ""
+    },
+    {
+      "id": "async-iterable-streams",
+      "name": "Asynchronously iterable streams",
+      "baselineDate": "2026-09-14",
+      "link": "https://webstatus.dev/features/async-iterable-streams",
+      "blurb": ""
+    },
+    {
+      "id": "light-dark-image",
+      "name": "light-dark() image values",
+      "baselineDate": "2026-09-14",
+      "link": "https://webstatus.dev/features/light-dark-image",
+      "blurb": ""
+    },
+    {
+      "id": "overflow-anchor",
+      "name": "overflow-anchor",
+      "baselineDate": "2026-09-14",
+      "link": "https://webstatus.dev/features/overflow-anchor",
+      "blurb": ""
+    },
+    {
+      "id": "top-level-await",
+      "name": "Top-level await",
+      "baselineDate": "2026-09-14",
+      "link": "https://webstatus.dev/features/top-level-await",
+      "blurb": ""
+    },
+    {
+      "id": "wasm-jspi",
+      "name": "JavaScript promise integration (WebAssembly)",
+      "baselineDate": "2026-09-14",
+      "link": "https://webstatus.dev/features/wasm-jspi",
+      "blurb": ""
+    }
+  ],
+  "node": [
+    {
+      "version": "26.9.0",
+      "date": "2026-09-16",
+      "line": "Current",
+      "security": false,
+      "notableChanges": "* \\[[`d414624dce`](https://github.com/nodejs/node/commit/d414624dce)] - **(SEMVER-MINOR)** **crypto**: add a generic MAC API (Filip Skokan) [#65553](https://github.com/nodejs/node/pull/65553)\n* \\[[`7ac458f802`](https://github.com/nodejs/node/commit/7ac458f802)] - **(SEMVER-MINOR)** **crypto**: discover ciphers from OpenSSL providers (Filip Skokan) [#65484](https://github.com/nodejs/node/pull/65484)\n* \\[[`7c7e95a3bd`](https://github.com/nodejs/node/commit/7c7e95a3bd)] - **(SEMVER-MINOR)** **crypto**: discover hashes from OpenSSL providers (Filip Skokan) [#65484](https://github.com/nodejs/node/pull/65484)\n* \\[[`2d2f4f6d1a`](https://github.com/nodejs/node/commit/2d2f4f6d1a)] - **(SEMVER-MINOR)** **ffi**: enable module by default (Matteo Collina) [#65475](https://github.com/nodejs/node/pull/65475)\n* \\[[`657415c6df`](https://github.com/nodejs/node/commit/657415c6df)] - **(SEMVER-MINOR)** **lib**: implement `node:bench` (James M Snell) [#65606](https://github.com/nodejs/node/pull/65606)\n* \\[[`ebcfec2f0c`](https://github.com/nodejs/node/commit/ebcfec2f0c)] - **(SEMVER-MINOR)** **perf\\_hooks**: implement Histogram `meanCI` API (James M Snell) [#65606](https://github.com/nodejs/node/pull/65606)\n* \\[[`e1913630c3`](https://github.com/nodejs/node/commit/e1913630c3)] - **(SEMVER-MINOR)** **perf\\_hooks**: add CBOR export/import for histogram exchange (James M Snell) [#65434](https://github.com/nodejs/node/pull/65434)\n* \\[[`8e9151c9f2`](https://github.com/nodejs/node/commit/8e9151c9f2)] - **(SEMVER-MINOR)** **src**: let embedders supply a builtin code cache without a snapshot (Shelley Vohr) [#65352](https://github.com/nodejs/node/pull/65352)\n* \\[[`889854f18b`](https://github.com/nodejs/node/commit/889854f18b)] - **(SEMVER-MINOR)** **src,lib**: implement experimental DTLS API (James M Snell) [#63182](https://github.com/nodejs/node/pull/63182)\n* \\[[`5198142c59`](https://github.com/nodejs/node/commit/5198142c59)] - **(SEMVER-MINOR)** **vfs**: integrate with CJS and ESM module loaders (Matteo Collina) [#63653](https://github.com/nodejs/node/pull/63653)\n* \\[[`5af9d72e7f`](https://github.com/nodejs/node/commit/5af9d72e7f)] - **(SEMVER-MINOR)** **worker**: add support for Web Workers (Aviv Keller) [#64894](https://github.com/nodejs/node/pull/64894)",
+      "link": "https://github.com/nodejs/node/releases/tag/v26.9.0",
+      "blurb": ""
+    }
+  ]
+}
