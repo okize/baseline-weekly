@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-27",
+  "window": {
+    "start": "2026-09-21",
+    "end": "2026-09-27"
+  },
+  "web": [],
+  "node": [
+    {
+      "version": "26.10.0",
+      "date": "2026-09-21",
+      "line": "Current",
+      "security": false,
+      "notableChanges": "* \\[[`c0a42d23e5`](https://github.com/nodejs/node/commit/c0a42d23e5)] - **(SEMVER-MINOR)** **crypto**: add crypto.parsePKCS12() (Brian Muenzenmeyer) [#65627](https://github.com/nodejs/node/pull/65627)\n* \\[[`eb4fabe81e`](https://github.com/nodejs/node/commit/eb4fabe81e)] - **doc**: add araujogui to collaborators (Guilherme Araújo) [#66090](https://github.com/nodejs/node/pull/66090)\n* \\[[`64fb33d791`](https://github.com/nodejs/node/commit/64fb33d791)] - **(SEMVER-MINOR)** **ffi**: load libraries from a mounted VFS (Matteo Collina) [#65909](https://github.com/nodejs/node/pull/65909)\n* \\[[`2b1701f810`](https://github.com/nodejs/node/commit/2b1701f810)] - **(SEMVER-MINOR)** **fs**: add openAsBlobSync (greenhead) [#65644](https://github.com/nodejs/node/pull/65644)\n* \\[[`080e76b3d7`](https://github.com/nodejs/node/commit/080e76b3d7)] - **(SEMVER-MINOR)** **net**: support sending net.BoundSocket to threads and child processes (Guy Bedford) [#64725](https://github.com/nodejs/node/pull/64725)\n* \\[[`13e61f6ae6`](https://github.com/nodejs/node/commit/13e61f6ae6)] - **(SEMVER-MINOR)** **perf\\_hooks**: implement SlidingWindowHistogram (James M Snell) [#65825](https://github.com/nodejs/node/pull/65825)\n* \\[[`a326546094`](https://github.com/nodejs/node/commit/a326546094)] - **(SEMVER-MINOR)** **perf\\_hooks**: implement qrde analysis support in Histogram (James M Snell) [#65806](https://github.com/nodejs/node/pull/65806)\n* \\[[`0306b0a71e`](https://github.com/nodejs/node/commit/0306b0a71e)] - **(SEMVER-MINOR)** **sqlite**: bind undefined to NULL (Trevor Burnham) [#65709](https://github.com/nodejs/node/pull/65709)\n* \\[[`3c999edef7`](https://github.com/nodejs/node/commit/3c999edef7)] - **(SEMVER-MINOR)** **src,lib**: add util.markPromiseAsHandled (James M Snell) [#65805](https://github.com/nodejs/node/pull/65805)\n* \\[[`f7d18ec360`](https://github.com/nodejs/node/commit/f7d18ec360)] - **(SEMVER-MINOR)** **test**: expand histogram test coverage (James M Snell) [#65825](https://github.com/nodejs/node/pull/65825)\n* \\[[`3ce4d23bbb`](https://github.com/nodejs/node/commit/3ce4d23bbb)] - **(SEMVER-MINOR)** **util**: implement util.throttle (James M Snell) [#65899](https://github.com/nodejs/node/pull/65899)\n* \\[[`336f33ccc1`](https://github.com/nodejs/node/commit/336f33ccc1)] - **(SEMVER-MINOR)** **util**: implement debounce (James M Snell) [#65899](https://github.com/nodejs/node/pull/65899)",
+      "link": "https://github.com/nodejs/node/releases/tag/v26.10.0"
+    },
+    {
+      "version": "22.23.3",
+      "date": "2026-09-23",
+      "line": "LTS (Jod)",
+      "security": false,
+      "notableChanges": "* \\[[`fe2a6b2be8`](https://github.com/nodejs/node/commit/fe2a6b2be8)] - **crypto**: update root certificates to NSS 3.125 (Node.js GitHub Bot) [#64746](https://github.com/nodejs/node/pull/64746)\n* \\[[`871167ddfd`](https://github.com/nodejs/node/commit/871167ddfd)] - **deps**: update corepack to 0.36.0 (Node.js GitHub Bot) [#65653](https://github.com/nodejs/node/pull/65653)\n* \\[[`b816fc8958`](https://github.com/nodejs/node/commit/b816fc8958)] - **deps**: upgrade npm to 10.9.9 (npm team) [#64884](https://github.com/nodejs/node/pull/64884)\n* \\[[`e306521444`](https://github.com/nodejs/node/commit/e306521444)] - **deps**: update icu to 78.3 (Node.js GitHub Bot) [#62324](https://github.com/nodejs/node/pull/62324)\n* \\[[`a9cb31129f`](https://github.com/nodejs/node/commit/a9cb31129f)] - **deps**: update OpenSSL 3.5.8 (Node.js GitHub Bot) [#65542](https://github.com/nodejs/node/pull/65542)\n* \\[[`2a3548e51c`](https://github.com/nodejs/node/commit/2a3548e51c)] - **deps**: update Undici to 6.28.1 (mcollina) [#65790](https://github.com/nodejs/node/pull/65790)\n* \\[[`3909ff2c4a`](https://github.com/nodejs/node/commit/3909ff2c4a)] - **node-api**: support `SharedArrayBuffer` in `napi_create_typedarray` (Yilong Li) [#62710](https://github.com/nodejs/node/pull/62710)\n* \\[[`66de6349ad`](https://github.com/nodejs/node/commit/66de6349ad)] - **node-api**: add `napi_create_external_sharedarraybuffer` (Ben Noordhuis) [#62623](https://github.com/nodejs/node/pull/62623)",
+      "link": "https://github.com/nodejs/node/releases/tag/v22.23.3"
+    }
+  ]
+}
