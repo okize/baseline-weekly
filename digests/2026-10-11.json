@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-11",
+  "curated": false,
+  "intro": "This week's items, without commentary. (Automatic summarization failed.)",
+  "web": [],
+  "node": [
+    {
+      "version": "26.11.1",
+      "date": "2026-10-07",
+      "line": "Current",
+      "security": false,
+      "notableChanges": null,
+      "link": "https://github.com/nodejs/node/releases/tag/v26.11.1",
+      "blurb": ""
+    },
+    {
+      "version": "26.11.0",
+      "date": "2026-10-07",
+      "line": "Current",
+      "security": false,
+      "notableChanges": "* \\[[`232f178825`](https://github.com/nodejs/node/commit/232f178825)] - **(SEMVER-MINOR)** **buffer**: add `isLatin1` (James M Snell) [#66298](https://github.com/nodejs/node/pull/66298)\n* \\[[`27778036de`](https://github.com/nodejs/node/commit/27778036de)] - **(SEMVER-MINOR)** **buffer**: add `Buffer.stringLength()` (Matteo Collina) [#66064](https://github.com/nodejs/node/pull/66064)\n* \\[[`4f84c4bda2`](https://github.com/nodejs/node/commit/4f84c4bda2)] - **build, doc**: move to redesign (Aviv Keller) [#62045](https://github.com/nodejs/node/pull/62045)\n* \\[[`6f6296fef9`](https://github.com/nodejs/node/commit/6f6296fef9)] - **(SEMVER-MINOR)** **doc**: promote Alpine Linux to tier 2 support (Stewart X Addison) [#63737](https://github.com/nodejs/node/pull/63737)\n* \\[[`e998d260d0`](https://github.com/nodejs/node/commit/e998d260d0)] - **(SEMVER-MINOR)** **http**: add `isValidHeaderName()` and isValidHeaderValue() (James M Snell) [#66334](https://github.com/nodejs/node/pull/66334)\n* \\[[`7702a50e08`](https://github.com/nodejs/node/commit/7702a50e08)] - **(SEMVER-MINOR)** **http2**: add `connectionWindowSize` option (Tim Perry) [#65619](https://github.com/nodejs/node/pull/65619)\n* \\[[`e06aa62cec`](https://github.com/nodejs/node/commit/e06aa62cec)] - **(SEMVER-MINOR)** **perf\\_hooks**: fix truncation of `monitorEventLoopDelay()` resolution (James M Snell) [#66115](https://github.com/nodejs/node/pull/66115)\n* \\[[`ee126e37e8`](https://github.com/nodejs/node/commit/ee126e37e8)] - **(SEMVER-MINOR)** **perf\\_hooks**: allow `RecordableHistogram` to record 0 (James M Snell) [#66114](https://github.com/nodejs/node/pull/66114)\n* \\[[`1fef8f54db`](https://github.com/nodejs/node/commit/1fef8f54db)] - **(SEMVER-MINOR)** **perf\\_hooks**: add `histogram.diff()` (James M Snell) [#66099](https://github.com/nodejs/node/pull/66099)\n* \\[[`f1b9758c4e`](https://github.com/nodejs/node/commit/f1b9758c4e)] - **(SEMVER-MINOR)** **perf\\_hooks**: add `histogram.snapshot()` (James M Snell) [#66099](https://github.com/nodejs/node/pull/66099)\n* \\[[`291d56ea3e`](https://github.com/nodejs/node/commit/291d56ea3e)] - **(SEMVER-MINOR)** **perf\\_hooks**: harden histogram CBOR import validation (James M Snell) [#66098](https://github.com/nodejs/node/pull/66098)\n* \\[[`6299b09d5c`](https://github.com/nodejs/node/commit/6299b09d5c)] - **(SEMVER-MINOR)** **process**: graduate `process.ref`/`unref` to stable (James M Snell) [#66213](https://github.com/nodejs/node/pull/66213)\n* \\[[`41d6707b63`](https://github.com/nodejs/node/commit/41d6707b63)] - **(SEMVER-MINOR)** **sqlite**: rename `DatabaseSync` and `StatementSync` (Guilherme Araújo) [#65988](https://github.com/nodejs/node/pull/65988)\n* \\[[`60d0aa0cd4`](https://github.com/nodejs/node/commit/60d0aa0cd4)] - **(SEMVER-MINOR)** **src**: add `--process-timeout=N` (James M Snell) [#66138](https://github.com/nodejs/node/pull/66138)\n* \\[[`f39916a7e3`](https://github.com/nodejs/node/commit/f39916a7e3)] - **(SEMVER-MINOR)** **src**: expose size and count in heap profile output (Ilyas Shabi) [#65737](https://github.com/nodejs/node/pull/65737)\n* \\[[`0b00d5ea59`](https://github.com/nodejs/node/commit/0b00d5ea59)] - **(SEMVER-MINOR)** **src**: let embedders exempt linked bindings from the addon permission (Shelley Vohr) [#66067](https://github.com/nodejs/node/pull/66067)",
+      "link": "https://github.com/nodejs/node/releases/tag/v26.11.0",
+      "blurb": ""
+    }
+  ]
+}
