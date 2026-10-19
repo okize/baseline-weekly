@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-18",
+  "curated": false,
+  "intro": "This week's items, without commentary. (Automatic summarization failed.)",
+  "web": [],
+  "node": [
+    {
+      "version": "26.12.0",
+      "date": "2026-10-14",
+      "line": "Current",
+      "security": false,
+      "notableChanges": "* \\[[`1ebd6d3677`](https://github.com/nodejs/node/commit/1ebd6d3677)] - **(SEMVER-MINOR)** **doc,lib,src**: throw on missing WebAssembly or RX support (Paolo Insogna) [#66533](https://github.com/nodejs/node/pull/66533)\n* \\[[`7f1937d2b9`](https://github.com/nodejs/node/commit/7f1937d2b9)] - **(SEMVER-MINOR)** **http**: add websocketMask() and websocketUnmask() (James M Snell) [#66335](https://github.com/nodejs/node/pull/66335)",
+      "link": "https://github.com/nodejs/node/releases/tag/v26.12.0",
+      "blurb": ""
+    },
+    {
+      "version": "24.22.0",
+      "date": "2026-10-14",
+      "line": "LTS (Krypton)",
+      "security": false,
+      "notableChanges": "* \\[[`ddbf974b47`](https://github.com/nodejs/node/commit/ddbf974b47)] - **(SEMVER-MINOR)** **crypto**: add `crypto.parsePKCS12()` (Brian Muenzenmeyer) [#65627](https://github.com/nodejs/node/pull/65627)\n* \\[[`c162c68ff0`](https://github.com/nodejs/node/commit/c162c68ff0)] - **(SEMVER-MINOR)** **crypto**: add a generic MAC API (Filip Skokan) [#65553](https://github.com/nodejs/node/pull/65553)\n* \\[[`a4ab3d84d7`](https://github.com/nodejs/node/commit/a4ab3d84d7)] - **(SEMVER-MINOR)** **crypto**: discover ciphers from OpenSSL providers (Filip Skokan) [#65484](https://github.com/nodejs/node/pull/65484)\n* \\[[`c2f1e829ea`](https://github.com/nodejs/node/commit/c2f1e829ea)] - **(SEMVER-MINOR)** **crypto**: discover hashes from OpenSSL providers (Filip Skokan) [#65484](https://github.com/nodejs/node/pull/65484)\n* \\[[`51aad5a80d`](https://github.com/nodejs/node/commit/51aad5a80d)] - **(SEMVER-MINOR)** **crypto**: enable SIV and GCM-SIV modes in Cipher/Decipher APIs (Filip Skokan) [#63411](https://github.com/nodejs/node/pull/63411)\n* \\[[`d11c65d2f2`](https://github.com/nodejs/node/commit/d11c65d2f2)] - **doc**: add araujogui to collaborators (Guilherme Araújo) [#66090](https://github.com/nodejs/node/pull/66090)\n* \\[[`acc1578179`](https://github.com/nodejs/node/commit/acc1578179)] - **doc**: deprecate `Server.prototype._listen2` in `node:net` (Antoine du Hamel) [#65593](https://github.com/nodejs/node/pull/65593)\n* \\[[`a7f8de6362`](https://github.com/nodejs/node/commit/a7f8de6362)] - **(SEMVER-MINOR)** **net**: support sending `net.BoundSocket` to threads and child processes (Guy Bedford) [#64725](https://github.com/nodejs/node/pull/64725)\n* \\[[`60c3eb61bd`](https://github.com/nodejs/node/commit/60c3eb61bd)] - **(SEMVER-MINOR)** **perf\\_hooks**: implement `SlidingWindowHistogram` (James M Snell) [#65825](https://github.com/nodejs/node/pull/65825)\n* \\[[`6b3e6f9d5c`](https://github.com/nodejs/node/commit/6b3e6f9d5c)] - **(SEMVER-MINOR)** **perf\\_hooks**: implement qrde analysis support in Histogram (James M Snell) [#65806](https://github.com/nodejs/node/pull/65806)\n* \\[[`75456a3512`](https://github.com/nodejs/node/commit/75456a3512)] - **(SEMVER-MINOR)** **perf\\_hooks**: implement Histogram `meanCI` API (James M Snell) [#65606](https://github.com/nodejs/node/pull/65606)\n* \\[[`72d1b40c56`](https://github.com/nodejs/node/commit/72d1b40c56)] - **(SEMVER-MINOR)** **perf\\_hooks**: add CBOR export/import for histogram exchange (James M Snell) [#65434](https://github.com/nodejs/node/pull/65434)\n* \\[[`41161dda87`](https://github.com/nodejs/node/commit/41161dda87)] - **(SEMVER-MINOR)** **sqlite**: add `StatementSync.prototype.close()` (Guilherme Araújo) [#64232](https://github.com/nodejs/node/pull/64232)\n* \\[[`adbc757d70`](https://github.com/nodejs/node/commit/adbc757d70)] - **(SEMVER-MINOR)** **sqlite**: add `StatementSync.prototype[Symbol.dispose]()` (Guilherme Araújo) [#64232](https://github.com/nodejs/node/pull/64232)\n* \\[[`241339f072`](https://github.com/nodejs/node/commit/241339f072)] - **(SEMVER-MINOR)** **src,lib**: add `util.markPromiseAsHandled` (James M Snell) [#65805](https://github.com/nodejs/node/pull/65805)\n* \\[[`63b0974d9e`](https://github.com/nodejs/node/commit/63b0974d9e)] - **(SEMVER-MINOR)** **util**: implement `util.throttle` (James M Snell) [#65899](https://github.com/nodejs/node/pull/65899)\n* \\[[`a3bbb5a26f`](https://github.com/nodejs/node/commit/a3bbb5a26f)] - **(SEMVER-MINOR)** **util**: implement `debounce` (James M Snell) [#65899](https://github.com/nodejs/node/pull/65899)",
+      "link": "https://github.com/nodejs/node/releases/tag/v24.22.0",
+      "blurb": ""
+    }
+  ]
+}
