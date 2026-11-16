@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-15",
+  "curated": false,
+  "intro": "This week's items, without commentary. (Automatic summarization failed.)",
+  "web": [],
+  "node": [
+    {
+      "version": "27.0.0-alpha.0.1.0",
+      "date": "2026-11-12",
+      "line": "Current",
+      "security": false,
+      "notableChanges": "* \\[[`33d4e6c73a`](https://github.com/nodejs/node/commit/33d4e6c73a)] - **(SEMVER-MINOR)** **child\\_process**: add subprocess.timedOut (Marco) [#66639](https://github.com/nodejs/node/pull/66639)\n* \\[[`edc7ec4a77`](https://github.com/nodejs/node/commit/edc7ec4a77)] - **(SEMVER-MINOR)** **crypto**: make X.509 inspection guards explicit (Filip Skokan) [#67245](https://github.com/nodejs/node/pull/67245)\n* \\[[`0882e9729b`](https://github.com/nodejs/node/commit/0882e9729b)] - **(SEMVER-MINOR)** **crypto**: add X.509 generation with CSR support (Filip Skokan) [#67245](https://github.com/nodejs/node/pull/67245)\n* \\[[`2360d3860e`](https://github.com/nodejs/node/commit/2360d3860e)] - **(SEMVER-MINOR)** **dns**: coalesce identical concurrent lookup() requests (Orgad Shaneh) [#62599](https://github.com/nodejs/node/pull/62599)\n* \\[[`dc4aa75983`](https://github.com/nodejs/node/commit/dc4aa75983)] - **doc**: add efekrskl to collaborators (Efe Karasakal) [#67376](https://github.com/nodejs/node/pull/67376)\n* \\[[`9695304ab8`](https://github.com/nodejs/node/commit/9695304ab8)] - **doc**: add Philipp Dunkel to contributors (Philipp Dunkel) [#67378](https://github.com/nodejs/node/pull/67378)\n* \\[[`41db1f7b6b`](https://github.com/nodejs/node/commit/41db1f7b6b)] - **doc**: add christianaurichzm to collaborators (Christian Aurich Zanettini Martins) [#67377](https://github.com/nodejs/node/pull/67377)\n* \\[[`6b8a90d41d`](https://github.com/nodejs/node/commit/6b8a90d41d)] - **(SEMVER-MINOR)** **http**: batch body spans per parser execute (Guilherme Araújo) [#67187](https://github.com/nodejs/node/pull/67187)\n* \\[[`8ffcb3ee55`](https://github.com/nodejs/node/commit/8ffcb3ee55)] - **(SEMVER-MINOR)** **sea**: generate a compile cache for the VFS modules (Matteo Collina) [#66768](https://github.com/nodejs/node/pull/66768)\n* \\[[`2bbcfa0718`](https://github.com/nodejs/node/commit/2bbcfa0718)] - **(SEMVER-MINOR)** **worker**: preload streams into startup snapshot (Matteo Collina) [#66311](https://github.com/nodejs/node/pull/66311)",
+      "link": "https://github.com/nodejs/node/releases/tag/v27.0.0-alpha.0.1.0",
+      "blurb": ""
+    },
+    {
+      "version": "26.13.1",
+      "date": "2026-11-10",
+      "line": "LTS (Lithium)",
+      "security": true,
+      "notableChanges": "* (CVE-2026-123863) http2: release headers when a stream is removed (Matteo Collina) – High\n* (CVE-2026-123864) tls,http: prevent nested parser execution from empty writes (Matteo Collina) – High\n* (CVE-2026-123865) http2: detect streams abandoned by nghttp2 (Matteo Collina) – High\n* (CVE-2026-123866) http2: retain buffers until socket writes finish (Matteo Collina) – High\n* (CVE-2026-123872) tls: disable resumption for mTLS with no session id context (Tim Perry) – High\n* (CVE-2026-123872) tls: don't allow renegotiation or HRR to change SNI (Tim Perry) – High\n* (CVE-2026-123872) tls: don't allow TLS resumption to change SNI (Tim Perry) – High\n* (CVE-2026-123874) http2: retain streams during pending writes (Matteo Collina) – High\n* (CVE-2026-126051) tls: fix remotely reachable TLS server crash (Tim Perry) – High\n* (CVE-2026-123828) http2: avoid overflowing ALTSVC buffers (Matteo Collina) – Medium\n* (CVE-2026-123867) tls: apply the CA of SNI contexts without a certificate (Matteo Collina) – Medium\n* (CVE-2026-123868) http2: charge inbound DATA retained by streams to maxSessionMemory (Matteo Collina) – Medium\n* (CVE-2026-123871) http: redact proxy credentials in invalid proxy URL errors (Matteo Collina) – Medium\n* (CVE-2026-123875) http2: guard against null write request on cancelled stream (Matteo Collina) – Medium\n* (CVE-2026-123877) https: isolate Agent TLS policy keys (Matteo Collina) – Medium\n* (CVE-2026-123829) permission: do not leak denied descendants in recursive fs.watch (RafaelGSS) – Low\n* (CVE-2026-123862) zlib: handle params callback after destroy (Matteo Collina) – Low\n* (CVE-2026-123873) permission: check heap snapshot destination (RafaelGSS) – Low\n* deps: update brotli to 1.2.1 (Node.js GitHub Bot)\n* deps: update llhttp to 9.4.4 (Antoine du Hamel)\n* deps: update sqlite to 3.54.1 (Node.js GitHub Bot)\n* deps: update undici to 8.12.4 (Node.js GitHub Bot)",
+      "link": "https://github.com/nodejs/node/releases/tag/v26.13.1",
+      "blurb": ""
+    },
+    {
+      "version": "24.22.3",
+      "date": "2026-11-10",
+      "line": "LTS (Krypton)",
+      "security": true,
+      "notableChanges": "* (CVE-2026-123863) http2: release headers when a stream is removed (Matteo Collina) – High\n* (CVE-2026-123864) tls,http: prevent nested parser execution from empty writes (Matteo Collina) – High\n* (CVE-2026-123865) http2: detect streams abandoned by nghttp2 (Matteo Collina) – High\n* (CVE-2026-123866) http2: retain buffers until socket writes finish (Matteo Collina) – High\n* (CVE-2026-123872) tls: disable resumption for mTLS with no session id context (Tim Perry) – High\n* (CVE-2026-123872) tls: don't allow renegotiation or HRR to change SNI (Tim Perry) – High\n* (CVE-2026-123872) tls: don't allow TLS resumption to change SNI (Tim Perry) – High\n* (CVE-2026-123874) http2: retain streams during pending writes (Matteo Collina) – High\n* (CVE-2026-126051) tls: fix remotely reachable TLS server crash (Tim Perry) – High\n* (CVE-2026-123828) http2: avoid overflowing ALTSVC buffers (Matteo Collina) – Medium\n* (CVE-2026-123867) tls: apply the CA of SNI contexts without a certificate (Matteo Collina) – Medium\n* (CVE-2026-123868) http2: charge inbound DATA retained by streams to maxSessionMemory (Matteo Collina) – Medium\n* (CVE-2026-123871) http: redact proxy credentials in invalid proxy URL errors (Matteo Collina) – Medium\n* (CVE-2026-123875) http2: guard against null write request on cancelled stream (Matteo Collina) – Medium\n* (CVE-2026-123877) https: isolate Agent TLS policy keys (Matteo Collina) – Medium\n* (CVE-2026-123829) permission: do not leak denied descendants in recursive fs.watch (RafaelGSS) – Low\n* (CVE-2026-123862) zlib: handle params callback after destroy (Matteo Collina) – Low\n* (CVE-2026-123873) permission: check heap snapshot destination (RafaelGSS) – Low\n* deps: update brotli to 1.2.1 (Node.js GitHub Bot)\n* deps: update llhttp to 9.4.4 (Antoine du Hamel)\n* deps: update sqlite to 3.54.1 (Node.js GitHub Bot)\n* deps: update undici to 7.30.2 (Node.js GitHub Bot)",
+      "link": "https://github.com/nodejs/node/releases/tag/v24.22.3",
+      "blurb": ""
+    },
+    {
+      "version": "22.23.5",
+      "date": "2026-11-11",
+      "line": "LTS (Jod)",
+      "security": true,
+      "notableChanges": "* (CVE-2026-123863) http2: release headers when a stream is removed (Matteo Collina) – High\n* (CVE-2026-123864) tls,http: prevent nested parser execution from empty writes (Matteo Collina) – High\n* (CVE-2026-123865) http2: detect streams abandoned by nghttp2 (Matteo Collina) – High\n* (CVE-2026-123866) http2: retain buffers until socket writes finish (Matteo Collina) – High\n* (CVE-2026-123872) tls: disable resumption for mTLS with no session id context (Tim Perry) – High\n* (CVE-2026-123872) tls: don't allow renegotiation or HRR to change SNI (Tim Perry) – High\n* (CVE-2026-123872) tls: don't allow TLS resumption to change SNI (Tim Perry) – High\n* (CVE-2026-123874) http2: retain streams during pending writes (Matteo Collina) – High\n* (CVE-2026-123828) http2: avoid overflowing ALTSVC buffers (Matteo Collina) – Medium\n* (CVE-2026-123867) tls: apply the CA of SNI contexts without a certificate (Matteo Collina) – Medium\n* (CVE-2026-123868) http2: charge inbound DATA retained by streams to maxSessionMemory (Matteo Collina) – Medium\n* (CVE-2026-123871) http: redact proxy credentials in invalid proxy URL errors (Matteo Collina) – Medium\n* (CVE-2026-123875) http2: guard against null write request on cancelled stream (Matteo Collina) – Medium\n* (CVE-2026-123877) https: isolate Agent TLS policy keys (Matteo Collina) – Medium\n* (CVE-2026-123829) permission: do not leak denied descendants in recursive fs.watch (RafaelGSS) – Low\n* (CVE-2026-123862) zlib: handle params callback after destroy (Matteo Collina) – Low\n* (CVE-2026-123873) permission: check heap snapshot destination (RafaelGSS) – Low\n* deps: update llhttp to 9.4.4 (Antoine du Hamel)\n* deps: update sqlite to 3.54.1 (Node.js GitHub Bot)",
+      "link": "https://github.com/nodejs/node/releases/tag/v22.23.5",
+      "blurb": ""
+    }
+  ]
+}
