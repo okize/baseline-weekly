@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-22",
+  "curated": false,
+  "intro": "This week's items, without commentary. (Automatic summarization failed.)",
+  "web": [],
+  "node": [
+    {
+      "version": "27.0.0-alpha.0.1.1",
+      "date": "2026-11-16",
+      "line": "Current",
+      "security": false,
+      "notableChanges": "* \\[[`e0c71bcd1c`](https://github.com/nodejs/node/commit/e0c71bcd1c)] - **tools**: notarize `bin/node` in the darwin tarballs (Ulises Gascón) [#67143](https://github.com/nodejs/node/pull/67143)",
+      "link": "https://github.com/nodejs/node/releases/tag/v27.0.0-alpha.0.1.1",
+      "blurb": ""
+    }
+  ]
+}
